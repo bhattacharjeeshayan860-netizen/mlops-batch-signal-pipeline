@@ -1,0 +1,9 @@
+2026-05-01 06:16:19,060 [INFO] === Job started ===
+2026-05-01 06:16:19,061 [INFO] Config loaded — seed=42, window=5, version=v1
+2026-05-01 06:16:19,061 [INFO] NumPy random seed set to 42
+2026-05-01 06:16:19,085 [INFO] Dataset loaded — 10000 rows, columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume']
+2026-05-01 06:16:19,085 [INFO] Computing rolling mean with window=5
+2026-05-01 06:16:19,092 [INFO] Rolling mean computed — 9996 valid rows, 4 warm-up rows excluded from signal
+2026-05-01 06:16:19,092 [INFO] Signal generation complete (signal=1 if close > rolling_mean, else 0)
+2026-05-01 06:16:19,092 [INFO] Metrics — rows_processed=10000, signal_rate=0.4991, latency_ms=32
+2026-05-01 06:16:19,093 [INFO] === Job completed successfully ===
